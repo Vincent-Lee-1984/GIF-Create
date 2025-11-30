@@ -1,2 +1,0 @@
-# GIF-Create
-GIF Create
