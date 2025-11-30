@@ -13,8 +13,19 @@
 - 网页入口：`app.py`（推荐）与 `run.py`（等效入口，功能相近）。
 - 离线脚本：`main.py`（直接生成 `sam3d_fixed_compressed.gif`）。
 - 依赖清单：`requirements.txt`（`streamlit`、`numpy`、`matplotlib`、`imageio`）。
+# AI 3D GIF Generator
 
+这是一个生成“环绕扫描 -> 3D 建模”演示动图的工具。
+
+## 🚀 快速开始 (Quick Start)
+
+### Mac / Linux 用户
+打开终端，运行以下命令：
+```bash
+./run.sh
 ## 快速开始（macOS）
+Windows 用户
+直接双击运行文件夹中的 run.bat 即可。
 
 **1. 创建并启用虚拟环境**
 - `python3 -m venv .venv`
